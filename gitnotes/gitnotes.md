@@ -55,16 +55,16 @@
 - **Master:** Default name for the *main branch*
 - **Branch Label:** points to the most recent commit in a branch
 - **HEAD:** A reference to the *current* commit.
-- - Usually points to branch label of current branch.
-- - only *one* HEAD per repository
+  - Usually points to branch label of current branch.
+  - only *one* HEAD per repository
 
         % git log --decorate=full
         commit d99bc0c533a61f97fcb85ff44d18d20e4f86053a (HEAD -> refs/heads/master, refs/remotes/origin/master)
         Author: Bob Byers <robertbyers@post.harvard.edu>
         Date:   Mon Mar 19 13:16:02 2018 -0400
 - **References:** are user-friendly names that point to..
-- - A commit SHA1 hash, or
-- - Another reference
+  - A commit SHA1 hash, or
+  - Another reference
 - **Tilde shortcuts**
    - Tilde ('~') refers to the *previous* (i.e., *parent*) commit
    - Tilde-two ('~2') refers to the parent's parent
