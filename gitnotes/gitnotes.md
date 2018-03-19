@@ -71,34 +71,34 @@
    - Tilde-n ('~n') refers to the nth parent
    - Multiple tildes same as ~n
 
-        % git log --oneline --graph HEAD
-        627aefc More mods to refs section (6)
-        443abaf More mods to refs section (5)
-        58acf16 More mods to refs section (4)
-        cd6a632 More mods to refs section (3)
-        84a09ad More mods to refs section (2)
-        f3cfbc6 More mods to refs section
-        d99bc0c More info added to references section
-        c2d0138 Add references section
-        8dfad10 New file gitnotes.md
-        1a9f006 Initial commit
+            % git log --oneline --graph HEAD
+            627aefc More mods to refs section (6)
+            443abaf More mods to refs section (5)
+            58acf16 More mods to refs section (4)
+            cd6a632 More mods to refs section (3)
+            84a09ad More mods to refs section (2)
+            f3cfbc6 More mods to refs section
+            d99bc0c More info added to references section
+            c2d0138 Add references section
+            8dfad10 New file gitnotes.md
+            1a9f006 Initial commit
 
-        % git log --oneline --graph 58acf16
-        58acf16 More mods to refs section (4)
-        cd6a632 More mods to refs section (3)
-        84a09ad More mods to refs section (2)
-        f3cfbc6 More mods to refs section
-        d99bc0c More info added to references section
-        c2d0138 Add references section
-        8dfad10 New file gitnotes.md
-        1a9f006 Initial commit
+            % git log --oneline --graph 58acf16
+            58acf16 More mods to refs section (4)
+            cd6a632 More mods to refs section (3)
+            84a09ad More mods to refs section (2)
+            f3cfbc6 More mods to refs section
+            d99bc0c More info added to references section
+            c2d0138 Add references section
+            8dfad10 New file gitnotes.md
+            1a9f006 Initial commit
  
-        % git log --oneline --graph 58acf16~~~
-        f3cfbc6 More mods to refs section
-        d99bc0c More info added to references section
-        c2d0138 Add references section
-        8dfad10 New file gitnotes.md
-        1a9f006 Initial commit
+            % git log --oneline --graph 58acf16~~~
+            f3cfbc6 More mods to refs section
+            d99bc0c More info added to references section
+            c2d0138 Add references section
+            8dfad10 New file gitnotes.md
+            1a9f006 Initial commit
 
 
 ***
