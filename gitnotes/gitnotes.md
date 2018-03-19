@@ -154,10 +154,24 @@
 >>	    merge = refs/heads/master  
 
 ***
+#### Branches
+
+To create a branch..
+    git branch branchname
+
+To switch to the branch..
+    git checkout branchname
+
+To see a list of branches and which one you are working on..
+    get branch
+
+***
 ### How to..
 
 #### Create a *new* repository from command line..
 
+    FIRST STEP: Create an empty repository on the server (I don't know if this can be done from cmd line)
+    
     echo "# reposC" >> README.md
     git init
     git add README.md
@@ -165,7 +179,7 @@
     git remote add origin https://github.com/bobbyers1111/reposC.git
     git push -u origin master
 
-#### Push an *existing* repository from the command line
+#### Push to an *existing* repository from the command line
 
     git remote add origin https://github.com/bobbyers1111/reposC.git
     git push -u origin master
