@@ -56,10 +56,10 @@ are user-friendly names that point to..
 - Another reference
 - Example..
 
-    git log --decorate=full  
-    commit d99bc0c533a61f97fcb85ff44d18d20e4f86053a (HEAD -> refs/heads/master, refs/remotes/origin/master)  
-    Author: Bob Byers <robertbyers@post.harvard.edu>  
-    Date:   Mon Mar 19 13:16:02 2018 -0400  
+        % git log --decorate=full  
+        commit d99bc0c533a61f97fcb85ff44d18d20e4f86053a (HEAD -> refs/heads/master, refs/remotes/origin/master)  
+        Author: Bob Byers <robertbyers@post.harvard.edu>  
+        Date:   Mon Mar 19 13:16:02 2018 -0400  
 
 ***
 ### Git remote, local, terminology, misc.
