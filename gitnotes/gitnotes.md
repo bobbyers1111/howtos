@@ -50,10 +50,14 @@
 >git hash-object *file*
 
 ***
-### References
-User-friendly name that points to..
+### References..
+are user-friendly names that point to..
 - A commit SHA1 hash, or
 - Another reference
+
+No references..
+% git log
+> commit c2d013840704deac384f86384f364af3ce19bff4
 
 ***
 ### Git remote, local, terminology, misc.
