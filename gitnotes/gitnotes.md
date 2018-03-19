@@ -57,7 +57,6 @@
 - **HEAD:** A reference to the *current* commit.
 - - Usually points to branch label of current branch.
 - - only *one* HEAD per repository
-- **Example..**
 
         % git log --decorate=full
         commit d99bc0c533a61f97fcb85ff44d18d20e4f86053a (HEAD -> refs/heads/master, refs/remotes/origin/master)
@@ -67,9 +66,9 @@
 - - A commit SHA1 hash, or
 - - Another reference
 - **Tilde shortcuts**
-- - Tilde ('~') refers to the *previous* (i.e., *parent*) commit
-- - Tilde-two ('~2') refers to the parent's parent
-- - Tilde-n ('~n') refers to the nth parent
+   - Tilde ('~') refers to the *previous* (i.e., *parent*) commit
+   - Tilde-two ('~2') refers to the parent's parent
+   - Tilde-n ('~n') refers to the nth parent
         % git log --oneline --graph HEAD
         627aefc More mods to refs section (6)
         443abaf More mods to refs section (5)
