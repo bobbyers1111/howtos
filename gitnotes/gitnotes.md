@@ -54,6 +54,9 @@
 
 - **Master:** Default name for the *main branch*
 - **Branch Label:** points to the most recent commit in a branch
+- **HEAD:** A reference to the *current* commit.
+- - Usually points to branch label of current branch.
+- - only *one* HEAD per repository
 - **References:** are user-friendly names that point to..
 - - A commit SHA1 hash, or
 - - Another reference
