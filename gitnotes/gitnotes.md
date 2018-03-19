@@ -105,7 +105,20 @@
    - ^^: first parent's first parent
    - ^2 second parent of the **MERGE** commit (not grandparent)
    - If the current branch is master, then the commit has only one parent and there is no second parent - hence an error would be returned if you specify HEAD^2
-   - Can be combined with ~. HEAD~^2 is the 'parent's second parent'
+   - Can be combined with '~'. "HEAD~^2" is the *parent's second parent*
+- **Tags**
+    - Use tags in place of branch labels or git IDs in git commands
+    - *Lightweigt Tag* simple reference to a commit
+    - *Annotated Tag* is a full git object containing..
+        - Reference to the commit
+        - Tag author
+        - Tag date
+        - Tag message
+        - Commit ID
+        - (optional) signed with GNU Privacy Guard (GPG)
+    - Use 'git tag' to display existing tags
+    - Use 'git show *<tab>*' to display details for a specific tag
+
 
 ***
 ### Git remote, local, terminology, misc.
