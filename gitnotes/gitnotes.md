@@ -108,16 +108,17 @@
    - Can be combined with '~'. "HEAD~^2" is the *parent's second parent*
 - **Tags**
     - Use tags in place of branch labels or git IDs in git commands
-    - *Lightweigt Tag* simple reference to a commit
+    - *Lightweight Tag* simple reference to a commit
     - *Annotated Tag* is a full git object containing..
         - Reference to the commit
         - Tag author
-        - Tag date
+        - Tag date/time
         - Tag message
         - Commit ID
         - (optional) signed with GNU Privacy Guard (GPG)
     - Use 'git tag' to display existing tags
-    - Use 'git show *<tab>*' to display details for a specific tag
+    - Use 'git show *&<tag&>*' to display details for a specific tag
+    - NOTE: 'git push' does not automatically push tags. Use '--tags' to make sure they do get pushed.
 
 
 ***
