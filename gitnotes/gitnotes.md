@@ -99,7 +99,13 @@
             c2d0138 Add references section
             8dfad10 New file gitnotes.md
             1a9f006 Initial commit
-
+- **Carrat ('^') character**
+   - Refers to a parent in a *merge commit*
+   - ^ or ^1: first parent of the merge commit
+   - ^^: first parent's first parent
+   - ^2 second parent of the **MERGE** commit (not grandparent)
+   - If the current branch is master, then the commit has only one parent and there is no second parent - hence an error would be returned if you specify HEAD^2
+   - Can be combined with ~. HEAD~^2 is the 'parent's second parent'
 
 ***
 ### Git remote, local, terminology, misc.
