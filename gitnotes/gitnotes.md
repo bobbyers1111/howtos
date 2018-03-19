@@ -57,16 +57,30 @@
 - **HEAD:** A reference to the *current* commit.
 - - Usually points to branch label of current branch.
 - - only *one* HEAD per repository
-- **References:** are user-friendly names that point to..
-- - A commit SHA1 hash, or
-- - Another reference
 - **Example..**
 
         % git log --decorate=full
         commit d99bc0c533a61f97fcb85ff44d18d20e4f86053a (HEAD -> refs/heads/master, refs/remotes/origin/master)
         Author: Bob Byers <robertbyers@post.harvard.edu>
         Date:   Mon Mar 19 13:16:02 2018 -0400
-
+- **References:** are user-friendly names that point to..
+- - A commit SHA1 hash, or
+- - Another reference
+- **Tilde shortcuts**
+- - Tilde ('~') refers to the *previous* (i.e., *parent*) commit
+- - Tilde-two ('~2') refers to the parent's parent
+- - Tilde-n ('~n') refers to the nth parent
+        % git log --oneline --graph HEAD
+        627aefc More mods to refs section (6)
+        443abaf More mods to refs section (5)
+        58acf16 More mods to refs section (4)
+        cd6a632 More mods to refs section (3)
+        84a09ad More mods to refs section (2)
+        f3cfbc6 More mods to refs section
+        d99bc0c More info added to references section
+        c2d0138 Add references section
+        8dfad10 New file gitnotes.md
+        1a9f006 Initial commit
 
 ***
 ### Git remote, local, terminology, misc.
