@@ -54,10 +54,12 @@
 are user-friendly names that point to..
 - A commit SHA1 hash, or
 - Another reference
+- Example..
 
-No references..
-% git log
-> commit c2d013840704deac384f86384f364af3ce19bff4
+    git log --decorate=full
+    commit d99bc0c533a61f97fcb85ff44d18d20e4f86053a (HEAD -> refs/heads/master, refs/remotes/origin/master)
+    Author: Bob Byers <robertbyers@post.harvard.edu>
+    Date:   Mon Mar 19 13:16:02 2018 -0400
 
 ***
 ### Git remote, local, terminology, misc.
