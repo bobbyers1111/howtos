@@ -50,6 +50,12 @@
 >git hash-object *file*
 
 ***
+### References
+User-friendly name that points to..
+- A commit SHA1 hash, or
+- Another reference
+
+***
 ### Git remote, local, terminology, misc.
 - Two fundamental starting scenarios..
 - - Already have a local repository => add the remote
