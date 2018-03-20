@@ -166,6 +166,23 @@ To see a list of branches and which one you are working on..
     get branch
 
 ***
+#### Merging
+- Fast Forward Merge
+- Merge Commit
+- Squash Merge
+- Rebase
+
+#### Merge conflicts
+1. Checkout master
+1. Merge the feature branch into master
+    1. git detects the conflict
+    1. git modifies the file, adding conflict markers
+1. Manually resolve the conflict (in the master branch)
+1. Stage the file
+1. Commit the merge commit
+1. (optional) Delte the feature branch
+
+***
 ### How to..
 
 #### Create a *new* repository from command line..
